@@ -1,0 +1,13 @@
+
+name = "linjian-peek-cloudflare"
+main = "worker.js"
+compatibility_date = "2026-08-22"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "linjian-peek"
+database_id = "fceb4241-1010-4ef9-a316-75fbb7e685df"
+
+[[kv_namespaces]]
+binding = "SCREENSHOT_KV"
+id = "3b813e0b593d4b08a02918d9ccbbb3e9"
