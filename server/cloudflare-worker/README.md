@@ -72,3 +72,5 @@ D1 schema 不需要新增表；本版复用已有 `companion_state` 存放主动
 ## v0.4.2.4 表情包库与 MCP
 
 新增 `list_stickers`、`search_stickers`、`get_sticker_detail`、`send_sticker` MCP 工具，以及 `/api/stickers/*` 普通接口。部署前请设置 `SUPABASE_URL` 与 `SUPABASE_SERVICE_ROLE_KEY` 两个 Worker Secret；bucket 默认 `stickers`。
+
+Cloudflare build test
